@@ -1,6 +1,8 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 const createHash = require('create-hash');
+
+
 function ripemd160(buffer) {
   try {
     return createHash('rmd160')
